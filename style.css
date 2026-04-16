@@ -2,10 +2,51 @@
 p:hover {
     color:blue;
 }
-/* AO PASPRESSIONAR ELE MUDARA A COR */
 
-h1:active {
+/* AO PASPRESSIONAR ELE MUDARA A COR */
+h2:active {
      color:blue;
 }
+h2 {
+    border: 2px solid purple;
+    margin-bottom: 30px; /* distancia da altura para o item a baixo */
+}
 
+/* LINK QUE MUDARA A COR AO SER CLICADO*/
+a:visited {
+   color: blue;
+   
+}
+
+a {
+    border: 2px solid purple;
+    padding: 6px;  /* tamanho que ta mudando a borda */
+}
+/* FICA COM COR AO CLICAR, CASO CLICAR FORA VOLTA AO NORMAL*/
+input:focus {
+    background-color: purple;
+}
+/* MUDARA A COR DO 1 ELEMENTO DA LISTA*/
+
+li:first-child {
+    color: pink;
+}
+/* MUDARA A COR DO ULTIMP ELEMENTO DA LISTA*/
+li:last-child {
+    color: purple;
+}
+
+/* MUDARA A COR DE UM ELEMENTO ESPECIFICO*/
+li:nth-child(3) {
+    color: green;
+}
+/* MUDARA A COR, INTERCALANDO, SE USO UM NUMERO PAR DPS DO + ELE COMEÇA PELO PAR
+li:nth-child(2n+1) {
+    color: green;
+} */
+
+/* SE MINHA CLASS NAO TIVER A CLASS MEUITEM ELA NAO FICARA AZUL*/
+li:not(.meuItem){
+    color:blue;
+}
 
