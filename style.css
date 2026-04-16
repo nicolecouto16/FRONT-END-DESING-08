@@ -1,0 +1,11 @@
+/* AO PASSAR O MOUSE ELE MUDARA A COR */
+p:hover {
+    color:blue;
+}
+/* AO PASPRESSIONAR ELE MUDARA A COR */
+
+h1:active {
+     color:blue;
+}
+
+
