@@ -67,3 +67,24 @@ input[type="radio"]:checked {
 input[type="checkbox"]:checked{
      margin-left: 25px;
 }
+
+
+option:checked {
+     color: red;
+}
+
+input:disabled{
+    background: #ccc;
+}
+
+input:required{
+   border: 1px solid red;
+}
+
+input[type="email"]:invalid {
+    background: orange;
+}
+
+input[type="email"]:valid {
+    background: green;
+}
