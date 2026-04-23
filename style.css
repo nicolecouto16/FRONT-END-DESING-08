@@ -50,3 +50,20 @@ li:not(.meuItem){
     color:blue;
 }
 
+
+
+
+
+/* Pseudo-Classes */
+
+/* :checked {
+    margin-left: 25px;
+} */
+
+input[type="radio"]:checked {
+    margin-left: 25px;
+}
+
+input[type="checkbox"]:checked{
+     margin-left: 25px;
+}
